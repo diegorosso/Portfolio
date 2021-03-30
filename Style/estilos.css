@@ -3,84 +3,118 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif!important;
 }
 
-hr {
- border-top: 1px solid lightgray;
-}
-
-.container {
-    background-color: #E4EFF7;
+.container{
+    background-color: #e4f1f5;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 50px;
     width: 100vw;
     height: 100vh;
-
 }
-
-
-.displayflex {
+.displayflex{
     display: flex;
-    flex-direction: row;
-    
 }
-
-.space-between {
-
+.spacebetween{
     justify-content: space-between;
-
 }
-
-.fuente {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-
+.fuente-h1{
+    font-weight: 400;
+    font-size: 30px;
 }
-.fuente-h1 {
-
-    font-weight: 300;
-}
-
-.fuente-boton{
-    font-weight: 700;
-
-}
-
-.margen-izquierdo-15 {
-    margin-left: 15px;
-}
-
-.margen-superior20 {
-    margin-top: 20px;
-
-}
-
-.boton {
+.boton{
     background-color: red;
     color: white;
+    border-radius: 50px;
+    padding: 10px 25px 12px 20px;
     border: 1px solid red;
-    border-radius: 25px;
-    padding: 15px 15px 15px 15px; 
     cursor: pointer;
-    transition: 0.4s;
-    
+    font-size: 14px;
 }
-
-.boton:hover {
+.boton:hover{
     background-color: white;
     color: red;
+    border-radius: 50px;
+    padding: 10px 25px 12px 20px;
     border: 1px solid red;
-    border-radius: 25px;
-    padding: 15px 15px 15px 15px; 
     cursor: pointer;
+    font-size: 14px;
     transition: 0.4s;
 }
-
-.card {
-    background-color: ghostwhite;
+.fuente-boton{
+    font-weight: 600;
+}
+.margen-izquierdo-15{
+    margin-left: 15px;
+}
+hr{
+    border-top: 1px solid lightgrey;
+}
+.margen-superior-20{
+    margin-top: 20px;
+}
+.margen-superior-10{
+    margin-top: 10px;
+}
+.margen-superior-15{
+    margin-top: 15px;
+}
+.margen-superior-30{
+    margin-top: 30px
+}
+.card{
+    background-color: #FEFEFE;
     border: 1px solid gray;
     border-radius: 15px;
-    width: 20%;
     height: 170px;
+    padding-left: 10px;
+}
+.displayflex-columna{
+    display: flex;
+    flex-direction: column;
+}
+.ancho-25{
+    width: 25%;
+}
+.imagen-rex{
+    max-width: 25%;
+}
+.imagen-dexter{
 
+}
+    
+
+.imagen-center{
+    max-width: 25%;
+}
+.imagen-digital{
+   max-width: 70%;
+}
+.boton-2{
+    cursor:pointer
+}
+.boton-2:hover{
+    color:red;
+    transition: 0.4s;
+}
+.color-flecha{
+    color:red
+}
+.margen-flecha{
+    margin-left: 5px;
+}
+footer{
+    font-size: 12px;
+}
+.card-sorpresa{
+    background-color: #FEFEFE;
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 340px;
+    padding-left: 10px
+}
+.porcentaje{
+    font-size: 80px;
 }
